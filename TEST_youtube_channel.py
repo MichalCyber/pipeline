@@ -6,7 +6,7 @@ from pathlib import Path
 '''
 downloader = ProfileDownloader(
     output_dir=Path("downloads/youtube_channel"),
-    cookies_file=None  # YouTube doesn't need cookies
+    cookies_file=Path("cookies/youtube_cookies.txt")  # YouTube doesn't need cookies
 )
 
 # Download z YouTube kanála

@@ -1,0 +1,173 @@
+2026-02-02 22:51:47,472 [INFO] [-] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment.
+ Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-02 22:51:47,473 [INFO] [-] werkzeug: [33mPress CTRL+C to quit[0m
+2026-02-02 22:51:47,479 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-02 22:51:48,176 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-02 22:51:48,184 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-02 22:55:43,498 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-02 22:55:43,513 [INFO] [-] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-02 22:55:43,513 [INFO] [-] werkzeug: [33mPress CTRL+C to quit[0m
+2026-02-02 22:55:43,514 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-02 22:55:44,209 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-02 22:55:44,218 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-02 22:55:44,225 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-02 22:56:24,997 [INFO] [-] werkzeug: 127.0.0.1 - - [02/Feb/2026 22:56:24] "GET /health HTTP/1.1" 200 -
+2026-02-02 22:57:15,512 [INFO] [-] werkzeug: 127.0.0.1 - - [02/Feb/2026 22:57:15] "[33mGET / HTTP/1.1[0m" 404 -
+2026-02-02 22:57:15,628 [INFO] [-] werkzeug: 127.0.0.1 - - [02/Feb/2026 22:57:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-03 08:29:18,691 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 08:29:18,726 [INFO] [-] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-03 08:29:18,727 [INFO] [-] werkzeug: [33mPress CTRL+C to quit[0m
+2026-02-03 08:29:18,729 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 08:29:19,701 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 08:29:19,714 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 08:29:19,726 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 08:29:29,912 [WARNING] [-] app.collectors.ytdlp_collector:   No cookies - engagement data may be limited
+2026-02-03 08:29:29,913 [INFO] [-] app.collectors.ytdlp_collector:  Tip: Export cookies.txt from browser
+2026-02-03 08:29:29,913 [INFO] [-] app.pipeline_runner: Collector: yt-dlp
+2026-02-03 08:29:29,915 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 08:30:13,269 [INFO] [-] app.collectors.ytdlp_collector:  Collected 3 shorts via yt-dlp
+2026-02-03 08:30:13,305 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 08:30:13] "POST /generate HTTP/1.1" 200 -
+2026-02-03 09:18:55,768 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\pipeline\\storage.py', reloading
+2026-02-03 09:18:55,843 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 09:18:56,590 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 09:18:56,600 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 09:18:56,608 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 09:19:24,308 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 09:19:24,322 [INFO] [-] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-03 09:19:24,323 [INFO] [-] werkzeug: [33mPress CTRL+C to quit[0m
+2026-02-03 09:19:24,324 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 09:19:24,965 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 09:19:24,973 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 09:19:24,980 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 09:20:40,199 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 09:20:40] "[31m[1mPOST /generate HTTP/1.1[0m" 415 -
+2026-02-03 09:20:57,602 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 09:20:57] "[31m[1mPOST /generate HTTP/1.1[0m" 415 -
+2026-02-03 09:21:16,827 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 09:21:16] "[31m[1mPOST /generate HTTP/1.1[0m" 400 -
+2026-02-03 09:22:27,789 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 09:22:27] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+2026-02-03 09:23:58,185 [WARNING] [-] app.collectors.ytdlp_collector:   No cookies - engagement data may be limited
+2026-02-03 09:23:58,186 [INFO] [-] app.collectors.ytdlp_collector:  Tip: Export cookies.txt from browser
+2026-02-03 09:23:58,186 [INFO] [-] app.pipeline_runner: Collector: yt-dlp
+2026-02-03 09:23:58,187 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 09:24:50,922 [INFO] [-] app.collectors.ytdlp_collector:  Collected 0 shorts via yt-dlp
+2026-02-03 09:24:50,940 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 09:24:50] "POST /generate HTTP/1.1" 200 -
+2026-02-03 09:40:14,501 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 09:40:14,520 [INFO] [-] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-02-03 09:40:14,520 [INFO] [-] werkzeug: [33mPress CTRL+C to quit[0m
+2026-02-03 09:40:14,521 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 09:40:15,252 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 09:40:15,263 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 09:40:15,270 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 09:40:18,176 [WARNING] [-] app.collectors.ytdlp_collector:   No cookies - engagement data may be limited
+2026-02-03 09:40:18,176 [INFO] [-] app.collectors.ytdlp_collector:  Tip: Export cookies.txt from browser
+2026-02-03 09:40:18,176 [INFO] [-] app.pipeline_runner: Collector: yt-dlp
+2026-02-03 09:40:18,178 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 09:41:00,717 [INFO] [-] app.collectors.ytdlp_collector:  Collected 0 shorts via yt-dlp
+2026-02-03 09:41:00,734 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 09:41:00] "POST /generate HTTP/1.1" 200 -
+2026-02-03 09:49:41,310 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 09:49:41] "[31m[1mPOST /generate HTTP/1.1[0m" 400 -
+2026-02-03 10:04:48,318 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\pipeline\\analyzer.py', reloading
+2026-02-03 10:04:48,394 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 10:04:49,210 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 10:04:49,221 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 10:04:49,227 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 10:04:51,477 [WARNING] [-] app.collectors.ytdlp_collector:   No cookies - engagement data may be limited
+2026-02-03 10:04:51,477 [INFO] [-] app.collectors.ytdlp_collector:  Tip: Export cookies.txt from browser
+2026-02-03 10:04:51,477 [INFO] [-] app.pipeline_runner: Collector: yt-dlp
+2026-02-03 10:04:51,479 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 10:04:51,480 [INFO] [-] app.collectors.ytdlp_collector: yt-dlp search: 'chinese drama drama scene OR clip OR edit' (max: 50)
+2026-02-03 10:05:32,513 [INFO] [-] app.collectors.ytdlp_collector: Collected 50 videos via yt-dlp
+2026-02-03 10:05:32,531 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 10:05:32] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2026-02-03 12:08:34,500 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\pipeline\\prompt_builder.py', reloading
+2026-02-03 12:08:34,578 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 12:08:35,600 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 12:08:35,611 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 12:08:35,618 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 12:10:35,964 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\collectors\\channel_scraper.py', reloading
+2026-02-03 12:10:36,027 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 12:10:36,850 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 12:10:36,861 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 12:10:36,868 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 12:10:50,659 [WARNING] [-] app.collectors.ytdlp_collector:   No cookies - engagement data may be limited
+2026-02-03 12:10:50,660 [INFO] [-] app.collectors.ytdlp_collector:  Tip: Export cookies.txt from browser
+2026-02-03 12:10:50,660 [INFO] [-] app.pipeline_runner: Collector: yt-dlp
+2026-02-03 12:10:50,661 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 12:10:50,662 [INFO] [-] app.collectors.ytdlp_collector: yt-dlp search: 'chinese drama romance drama scene OR clip OR edit' (max: 50)
+2026-02-03 12:11:08,895 [ERROR] [-] app.collectors.ytdlp_collector: yt-dlp search failed: [0;31mERROR:[0m [youtube] mOP7QZfMEjE: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-03 12:11:08,907 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 12:11:08] "POST /generate HTTP/1.1" 200 -
+2026-02-03 12:31:33,298 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\pipeline\\analyzer.py', reloading
+2026-02-03 12:31:33,383 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 12:31:34,265 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 12:31:34,276 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 12:31:34,283 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 12:34:06,705 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\test.py', reloading
+2026-02-03 12:34:06,764 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 12:34:07,561 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 12:34:07,571 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 12:34:07,579 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 12:34:45,697 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\test.py', reloading
+2026-02-03 12:34:45,770 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 12:34:46,506 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 12:34:46,517 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 12:34:46,524 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 12:36:48,868 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\test.py', reloading
+2026-02-03 12:36:48,920 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 12:36:49,687 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 12:36:49,697 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 12:36:49,704 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 12:37:41,704 [WARNING] [-] app.collectors.ytdlp_collector:   No cookies - engagement data may be limited
+2026-02-03 12:37:41,704 [INFO] [-] app.collectors.ytdlp_collector:  Tip: Export cookies.txt from browser
+2026-02-03 12:37:41,704 [INFO] [-] app.pipeline_runner: Collector: yt-dlp
+2026-02-03 12:37:41,706 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 12:37:41,707 [INFO] [-] app.collectors.ytdlp_collector: yt-dlp search: 'chinese drama romance drama scene OR clip OR edit' (max: 50)
+2026-02-03 12:38:21,196 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\test.py', reloading
+2026-02-03 12:38:21,281 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 12:38:22,036 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 12:38:22,047 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 12:38:22,054 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 13:34:22,246 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 13:34:22] "[33mPOST /scrape-channel HTTP/1.1[0m" 404 -
+2026-02-03 13:34:40,118 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\routes\\scrape.py', reloading
+2026-02-03 13:34:40,178 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 13:34:41,015 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 13:34:41,027 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 13:34:41,033 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 13:34:42,631 [INFO] [-] werkzeug: 127.0.0.1 - - [03/Feb/2026 13:34:42] "[33mPOST /scrape-channel HTTP/1.1[0m" 404 -
+2026-02-03 13:39:07,767 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\test.py', reloading
+2026-02-03 13:39:07,860 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 13:39:08,698 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 13:39:08,709 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 13:39:08,716 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 18:42:39,881 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\automation\\folder_watcher.py', reloading
+2026-02-03 18:42:39,954 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 18:42:40,955 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 18:42:40,970 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 18:42:40,978 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 18:47:51,973 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\engines\\fooocus_runner.py', reloading
+2026-02-03 18:47:52,048 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 18:47:52,945 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 18:47:52,958 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 18:47:52,965 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 19:05:45,824 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\FOOCUS_TEST.py', reloading
+2026-02-03 19:05:45,884 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 19:05:46,680 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 19:05:46,691 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 19:05:46,698 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 19:22:36,205 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\FOOCUS_TEST.py', reloading
+2026-02-03 19:22:36,279 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 19:22:37,137 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 19:22:37,149 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 19:22:37,157 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 19:33:51,571 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\FOOCUS_TEST.py', reloading
+2026-02-03 19:33:51,686 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 19:33:52,864 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 19:33:52,881 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 19:33:52,890 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 19:35:46,296 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\FOOCUS_TEST.py', reloading
+2026-02-03 19:35:46,439 [INFO] [-] werkzeug:  * Restarting with stat
+2026-02-03 19:35:47,566 [INFO] [-] app.pipeline.storage: Database initialized: ./outputs/pipeline.db
+2026-02-03 19:35:47,583 [WARNING] [-] werkzeug:  * Debugger is active!
+2026-02-03 19:35:47,593 [INFO] [-] werkzeug:  * Debugger PIN: 924-954-628
+2026-02-03 19:38:46,228 [INFO] [-] werkzeug:  * Detected change in 'C:\\Programovanie\\viral-pipeline\\app\\FOOCUS_TEST.py', reloading
+2026-02-03 19:38:46,335 [INFO] [-] werkzeug:  * Restarting with stat

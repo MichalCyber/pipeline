@@ -1,0 +1,63 @@
+Chápem, prečo ťa to láka, ale prihlásenie cez meno a heslo v skripte je pri Fansly takmer nemožné.
+
+Fansly používa veľmi silnú ochranu (Cloudflare, 2FA, komplexné generovanie tokenov), ktorú jednoduchý Python skript nevie napodobniť. Preto sa používajú cookies – tie hovoria serveru: "Tento používateľ sa už úspešne prihlásil v prehliadači a ja som jeho platná vizitka."
+
+Tu je rozbor tvojho súboru a riešenie:
+1. Čo je v tvojom cookies.txt?
+
+Tvoj kľúčový token je f-s-c. To je tvoja "session".
+
+    V súbore ho máš, ale všimni si, že pri ňom je hodnota TRUE (HttpOnly).
+
+    Problém môže byť v tom, že tvoj skript očakáva cookie s názvom session_active_session, ale tvoj Firefox exportér ho nazval f-s-c.
+
+2. Upravme kód, aby bral tvoje cookies správne
+
+V súbore collector.py zmeň metódu _load_cookies, aby povinne hľadala f-s-c, čo je aktuálny formát, ktorý ti Firefox vyexportoval:
+Python
+
+def _load_cookies(self):
+    try:
+        jar = MozillaCookieJar(str(self.cookies_file))
+        jar.load(ignore_discard=True, ignore_expires=True)
+        self.session.cookies = jar
+        
+        auth_token = None
+        for cookie in jar:
+            # Hľadáme presne to, čo máš v súbore
+            if cookie.name == 'f-s-c':
+                auth_token = cookie.value
+                break
+        
+        if auth_token:
+            self.session.headers.update({
+                'Authorization': auth_token, # Toto je tvoj kľúč k obsahu
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0',
+                'Accept': 'application/json, text/plain, */*',
+            })
+            logger.info("✅ Auth token (f-s-c) úspešne načítaný")
+        else:
+            logger.error("❌ Token f-s-c v súbore neexistuje!")
+    except Exception as e:
+        logger.error(f"Chyba: {e}")
+
+3. Prečo to cez heslo radšej neskúšať?
+
+    Bezpečnosť: Ak by si dal heslo do skriptu a ten by ho poslal bez správnych hlavičiek, Fansly ti okamžite zablokuje účet kvôli "podozrivej aktivite".
+
+    2FA: Ak máš dvojfaktorové overenie, skript by aj tak zamrzol, lebo nevie prečítať SMS/e-mail kód.
+
+    Bot Detection: Fansly vidí, že požiadavka nejde z Firefoxu, ale z knižnice requests, a okamžite ju zamietne.
+
+Čo teraz urobiť?
+
+    Uprav kód podľa bodu 2 (zmeň meno cookie na f-s-c).
+
+    Uisti sa, že v prehliadači Firefox si stále prihlásený na Fansly a vidíš videá daného tvorcu.
+
+    Skús spustiť test.py znova.
+
+Ak to zlyhá aj potom:
+Je možné, že Firefox exportér pridáva do súboru neviditeľné znaky. Skús použiť v Chrome/Edge rozšírenie "Get cookies.txt LOCALLY", ktoré je pre tieto skripty najspoľahlivejšie.
+
+Chceš, aby som ti upravil tú funkciu _get_timeline, aby sme videli, akú presnú chybu (kód 401 alebo 403) ti server vracia?
